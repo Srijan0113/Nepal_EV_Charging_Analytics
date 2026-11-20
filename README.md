@@ -31,11 +31,7 @@ Each source counts different things. There is no official national registry.
 Vehicle dealers and hotels own most charging stations. They do not publish station-level details.
 
 ## Why I stopped the original analysis
-Only ~150 rows have enough data for real analysis. That is not enough to represent the whole country. Guessing the missing values would make the results unreliable. Scraping more data would take 4–6 weeks, which was not possible in this timeline.
-
-## What I delivered instead
-- A cleaned CSV with quality flags (350 rows).
-- This audit: what is missing, what is wrong, and why it matters.
+Only ~150 rows have enough data for real analysis. That is not enough to represent the whole country. Guessing the missing values would make the results unreliable. Scraping more data would take a lot of time, which was not possible in this timeline.
 
 ## What this means
 Nepal's EV charging data is fragmented and incomplete. A real analysis needs:
@@ -43,9 +39,3 @@ Nepal's EV charging data is fragmented and incomplete. A real analysis needs:
 2. Data-sharing from private operators, or
 3. A longer scraping and field-verification project.
 
-For the next project, choose a topic with clean, public data.
-
-## Files
-- `nepal_ev_clean.csv` — cleaned dataset
-- `README.md` — this file
-- `WORK_REPORT.md` — short work report
